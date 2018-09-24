@@ -1,0 +1,23 @@
+1. 8 + 9 + 7 = 24 cost units
+  (8 + 1 + 7 = 16 push operations)
+
+   8 + 9 + 7 + 17 + 15 = 56 cost units
+  (8 + 1 + 7 + 1  + 15 = 32 push operations)
+
+   The big Oh complexity for push is O(1+)
+
+2. 8 + 9 + 1 + 9 + 1 + 9 + 1 + 9 + 1 = 48 cost units
+  (8 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 = 16 push operations)
+
+  (((32 - 8) / 2) * 10) + 8 = 128 cost units
+  number of push operations - intial array space
+  / 2 new spaces
+  * 10 total cost units for two new push operations
+  + 8 push operations to fill the intial array = 32 push operations
+
+  The big Oh complexity for push is O(N/2)
+
+3. If the stack repeatedly used push() and pop() at the halfway point of the capacity of the
+   stack then it would constantly be resizing and therefore would be very inefficient.
+   This could be potentially fixed by making the array decrement in size by half whenever
+   it reaches say one quarter capacity, thus preventing the array from constantly resizing.

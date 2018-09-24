@@ -1,0 +1,12 @@
+1. The Linked list uses the most memory. This is because to create more memory you must
+   manipulate multiple different pointers and where they are pointing to for every single new
+   element. The array on the other hand has pointers directly to its elements.
+
+2. The Linked list is the fastest. This is because for every new element in the linked list,
+   the element can simply be inserted into the middle. An array on the other hand has to
+   move every single element if it wants to add or remove an element from the middle, thus
+   making it much slower.
+
+3. Yes, the program performs much quicker. This is because there are a significantly less 
+   amount of elements that the loop has to iterate through, and therefore performed
+   at a much quicker rate.

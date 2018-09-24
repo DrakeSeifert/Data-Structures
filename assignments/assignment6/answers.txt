@@ -1,0 +1,13 @@
+1. tea and eat will hash to the same index for stringHash1(), but not stringHash2().
+2. stringHash2() will spread out the keys more, allowing for a smaller load factor.
+3. Because size() returns the number of hashlinks, it should not return a different value
+   based on which stringHash function you use.
+4. Yes because which stringHash function I use will change my load factor.
+   stringHash1() will most likely return a larger load factor overall because the 
+   keys are more likely to be indexed to the same location. This means it will
+   resize more often and can therefore potentially return a different value for tableLoad().
+5. Yes, just like from question 4, the amount of resizes may differ, therefore allowing
+   for a different number of empty buckets.
+6. Yes, using a prime number reduces the total amount of collisions which therefore
+   reduces the amount of empty buckets.
+7.

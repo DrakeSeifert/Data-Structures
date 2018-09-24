@@ -1,0 +1,353 @@
+--------------------------------------------------------------------------------
+Command:            ./link
+Massif arguments:   (none)
+ms_print arguments: massif.out.23834
+--------------------------------------------------------------------------------
+
+
+    MB
+19.45^                                                                       #
+     |                                                                     @@#
+     |                                                               :@@@:@@@#
+     |                                                    :::::::::@@:@@@:@@@#
+     |                                      @::::::::::::::::::::: @@:@@@:@@@#
+     |                   :::::::::::::::::::@: :: :: ::::::::::::: @@:@@@:@@@#
+     |                   :::: : ::: :: ::: :@: :: :: ::::::::::::: @@:@@@:@@@#
+     |                   :::: : ::: :: ::: :@: :: :: ::::::::::::: @@:@@@:@@@#
+     |                   :::: : ::: :: ::: :@: :: :: ::::::::::::: @@:@@@:@@@#
+     |                   :::: : ::: :: ::: :@: :: :: ::::::::::::: @@:@@@:@@@#
+     |                   :::: : ::: :: ::: :@: :: :: ::::::::::::: @@:@@@:@@@#
+     |                ::::::: : ::: :: ::: :@: :: :: ::::::::::::: @@:@@@:@@@#
+     |          :::::@:: :::: : ::: :: ::: :@: :: :: ::::::::::::: @@:@@@:@@@#
+     |     ::::::: ::@:: :::: : ::: :: ::: :@: :: :: ::::::::::::: @@:@@@:@@@#
+     |     ::: ::: ::@:: :::: : ::: :: ::: :@: :: :: ::::::::::::: @@:@@@:@@@#
+     |     ::: ::: ::@:: :::: : ::: :: ::: :@: :: :: ::::::::::::: @@:@@@:@@@#
+     |    @::: ::: ::@:: :::: : ::: :: ::: :@: :: :: ::::::::::::: @@:@@@:@@@#
+     | :::@::: ::: ::@:: :::: : ::: :: ::: :@: :: :: ::::::::::::: @@:@@@:@@@#
+     | :: @::: ::: ::@:: :::: : ::: :: ::: :@: :: :: ::::::::::::: @@:@@@:@@@#
+     | :: @::: ::: ::@:: :::: : ::: :: ::: :@: :: :: ::::::::::::: @@:@@@:@@@#
+   0 +----------------------------------------------------------------------->Gi
+     0                                                                   244.2
+
+Number of snapshots: 69
+ Detailed snapshots: [3, 12, 29, 48, 51, 53, 55, 57, 59, 61, 63, 64, 65, 66, 67, 68 (peak)]
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  0              0                0                0             0            0
+  1  6,107,079,512        3,869,160        2,321,496     1,547,664            0
+  2  9,128,401,176        4,056,040        2,433,624     1,622,416            0
+  3 15,425,903,881        4,680,840        2,808,504     1,872,336            0
+60.00% (2,808,504B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->27.70% (1,296,408B) 0x400DE7: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->27.70% (1,296,408B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->27.70% (1,296,408B) 0x400D7D: containsList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->27.70% (1,296,408B) 0x400DFC: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   ->27.70% (1,296,408B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|     
+->04.61% (215,616B) 0x400CDB: addList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->04.61% (215,616B) 0x400ED9: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->00.00% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  4 19,848,052,458        7,691,520        4,614,912     3,076,608            0
+  5 22,854,406,746        7,774,080        4,664,448     3,109,632            0
+  6 26,563,035,885        7,880,040        4,728,024     3,152,016            0
+  7 33,010,466,660        8,077,040        4,846,224     3,230,816            0
+  8 36,919,328,533        8,206,120        4,923,672     3,282,448            0
+  9 42,033,754,421        8,389,160        5,033,496     3,355,664            0
+ 10 47,499,127,515        8,608,440        5,165,064     3,443,376            0
+ 11 51,398,666,033        8,786,120        5,271,672     3,514,448            0
+ 12 56,993,494,740        9,091,480        5,454,888     3,636,592            0
+60.00% (5,454,888B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->26.47% (2,406,792B) 0x400DE7: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->26.47% (2,406,792B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->26.47% (2,406,792B) 0x400D7D: containsList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->26.47% (2,406,792B) 0x400DFC: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   ->26.47% (2,406,792B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|     
+->07.05% (641,232B) 0x400CDB: addList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->07.05% (641,232B) 0x400ED9: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->00.00% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 13 60,339,923,920        9,325,840        5,595,504     3,730,336            0
+ 14 64,282,424,921        9,747,080        5,848,248     3,898,832            0
+ 15 69,580,219,990       15,332,560        9,199,536     6,133,024            0
+ 16 74,918,687,150       15,403,280        9,241,968     6,161,312            0
+ 17 78,475,585,350       15,450,960        9,270,576     6,180,384            0
+ 18 83,146,503,875       15,514,280        9,308,568     6,205,712            0
+ 19 89,592,812,044       15,603,040        9,361,824     6,241,216            0
+ 20 95,242,213,869       15,682,200        9,409,320     6,272,880            0
+ 21 100,663,988,774       15,759,440        9,455,664     6,303,776            0
+ 22 104,054,340,254       15,808,400        9,485,040     6,323,360            0
+ 23 109,703,494,405       15,891,160        9,534,696     6,356,464            0
+ 24 115,995,269,255       15,985,160        9,591,096     6,394,064            0
+ 25 122,022,242,592       16,077,120        9,646,272     6,430,848            0
+ 26 126,540,260,260       16,147,360        9,688,416     6,458,944            0
+ 27 131,059,552,874       16,218,800        9,731,280     6,487,520            0
+ 28 136,798,593,917       16,311,320        9,786,792     6,524,528            0
+ 29 141,130,133,740       16,382,600        9,829,560     6,553,040            0
+60.00% (9,829,560B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->22.64% (3,709,464B) 0x400DE7: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->22.64% (3,709,464B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->22.64% (3,709,464B) 0x400D7D: containsList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->22.64% (3,709,464B) 0x400DFC: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   ->22.64% (3,709,464B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|     
+->14.71% (2,410,560B) 0x400CDB: addList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->14.71% (2,410,560B) 0x400ED9: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->00.00% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 30 144,785,682,740       16,443,680        9,866,208     6,577,472            0
+ 31 150,268,273,055       16,537,160        9,922,296     6,614,864            0
+ 32 156,283,736,204       16,642,400        9,985,440     6,656,960            0
+ 33 161,990,558,694       16,745,040       10,047,024     6,698,016            0
+ 34 167,473,264,299       16,846,440       10,107,864     6,738,576            0
+ 35 172,855,592,510       16,948,880       10,169,328     6,779,552            0
+ 36 176,509,892,019       17,020,200       10,212,120     6,808,080            0
+ 37 179,730,144,292       17,084,320       10,250,592     6,833,728            0
+ 38 183,383,552,239       17,158,600       10,295,160     6,863,440            0
+ 39 188,086,416,524       17,256,800       10,354,080     6,902,720            0
+ 40 191,739,043,759       17,335,240       10,401,144     6,934,096            0
+ 41 196,081,989,444       17,431,200       10,458,720     6,972,480            0
+ 42 199,733,917,185       17,514,360       10,508,616     7,005,744            0
+ 43 203,708,497,640       17,607,680       10,564,608     7,043,072            0
+ 44 207,362,785,792       17,696,320       10,617,792     7,078,528            0
+ 45 210,949,422,584       17,786,240       10,671,744     7,114,496            0
+ 46 214,602,395,092       17,881,120       10,728,672     7,152,448            0
+ 47 217,793,891,344       17,967,040       10,780,224     7,186,816            0
+ 48 222,401,159,142       18,096,760       10,858,056     7,238,704            0
+60.00% (10,858,056B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->26.18% (4,737,960B) 0x400DE7: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->26.18% (4,737,960B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->26.18% (4,737,960B) 0x400D7D: containsList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->26.18% (4,737,960B) 0x400DFC: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   ->26.18% (4,737,960B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|     
+->07.64% (1,382,064B) 0x400CDB: addList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->07.64% (1,382,064B) 0x400ED9: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->00.00% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 49 224,227,729,769       18,150,200       10,890,120     7,260,080            0
+ 50 227,234,570,092       18,241,120       10,944,672     7,296,448            0
+ 51 228,409,974,517       18,277,760       10,966,656     7,311,104            0
+60.00% (10,966,656B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->26.52% (4,846,560B) 0x400DE7: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->26.52% (4,846,560B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->26.52% (4,846,560B) 0x400D7D: containsList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->26.52% (4,846,560B) 0x400DFC: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   ->26.52% (4,846,560B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|     
+->06.97% (1,273,464B) 0x400CDB: addList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->06.97% (1,273,464B) 0x400ED9: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->00.00% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 52 231,416,983,685       18,374,360       11,024,616     7,349,744            0
+ 53 233,979,776,267       18,460,560       11,076,336     7,384,224            0
+60.00% (11,076,336B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->26.85% (4,956,240B) 0x400DE7: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->26.85% (4,956,240B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->26.85% (4,956,240B) 0x400D7D: containsList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->26.85% (4,956,240B) 0x400DFC: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   ->26.85% (4,956,240B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|     
+->06.30% (1,163,784B) 0x400CDB: addList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->06.30% (1,163,784B) 0x400ED9: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->00.00% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 54 236,986,535,595       18,566,760       11,140,056     7,426,704            0
+ 55 239,096,810,755       18,645,200       11,187,120     7,458,080            0
+60.00% (11,187,120B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->27.18% (5,067,024B) 0x400DE7: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->27.18% (5,067,024B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->27.18% (5,067,024B) 0x400D7D: containsList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->27.18% (5,067,024B) 0x400DFC: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   ->27.18% (5,067,024B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|     
+->05.65% (1,053,000B) 0x400CDB: addList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->05.65% (1,053,000B) 0x400ED9: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->00.00% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 56 242,104,087,660       18,763,360       11,258,016     7,505,344            0
+ 57 243,745,789,789       18,831,680       11,299,008     7,532,672            0
+60.00% (11,299,008B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->27.50% (5,178,912B) 0x400DE7: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->27.50% (5,178,912B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->27.50% (5,178,912B) 0x400D7D: containsList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->27.50% (5,178,912B) 0x400DFC: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   ->27.50% (5,178,912B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|     
+->05.00% (941,112B) 0x400CDB: addList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->05.00% (941,112B) 0x400ED9: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->00.00% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 58 246,752,296,405       18,965,080       11,379,048     7,586,032            0
+ 59 247,911,272,825       19,020,000       11,412,000     7,608,000            0
+60.00% (11,412,000B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->27.82% (5,291,904B) 0x400DE7: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->27.82% (5,291,904B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->27.82% (5,291,904B) 0x400D7D: containsList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->27.82% (5,291,904B) 0x400DFC: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   ->27.82% (5,291,904B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|     
+->04.35% (828,120B) 0x400CDB: addList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->04.35% (828,120B) 0x400ED9: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->00.00% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 60 250,917,830,517       19,173,720       11,504,232     7,669,488            0
+ 61 251,579,095,269       19,210,240       11,526,144     7,684,096            0
+60.00% (11,526,144B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->28.14% (5,406,048B) 0x400DE7: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->28.14% (5,406,048B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->28.14% (5,406,048B) 0x400D7D: containsList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->28.14% (5,406,048B) 0x400DFC: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   ->28.14% (5,406,048B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|     
+->03.72% (713,976B) 0x400CDB: addList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->03.72% (713,976B) 0x400ED9: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->00.00% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 62 254,585,991,189       19,392,600       11,635,560     7,757,040            0
+ 63 254,732,221,542       19,402,360       11,641,416     7,760,944            0
+60.00% (11,641,416B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->28.46% (5,521,320B) 0x400DE7: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->28.46% (5,521,320B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->28.46% (5,521,320B) 0x400D7D: containsList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->28.46% (5,521,320B) 0x400DFC: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   ->28.46% (5,521,320B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|     
+->03.09% (598,704B) 0x400CDB: addList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->03.09% (598,704B) 0x400ED9: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->00.00% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 64 257,354,880,735       19,596,400       11,757,840     7,838,560            0
+60.00% (11,757,840B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->28.77% (5,637,744B) 0x400DE7: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->28.77% (5,637,744B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->28.77% (5,637,744B) 0x400D7D: containsList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->28.77% (5,637,744B) 0x400DFC: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   ->28.77% (5,637,744B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|     
+->02.46% (482,280B) 0x400CDB: addList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->02.46% (482,280B) 0x400ED9: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->00.00% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 65 259,430,672,635       19,792,400       11,875,440     7,916,960            0
+60.00% (11,875,440B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->29.08% (5,755,344B) 0x400DE7: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->29.08% (5,755,344B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->29.08% (5,755,344B) 0x400D7D: containsList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->29.08% (5,755,344B) 0x400DFC: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   ->29.08% (5,755,344B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|     
+->01.84% (364,680B) 0x400CDB: addList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->01.84% (364,680B) 0x400ED9: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->00.00% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 66 260,942,310,042       19,990,360       11,994,216     7,996,144            0
+60.00% (11,994,216B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->29.38% (5,874,120B) 0x400DE7: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->29.38% (5,874,120B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->29.38% (5,874,120B) 0x400D7D: containsList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->29.38% (5,874,120B) 0x400DFC: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   ->29.38% (5,874,120B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|     
+->01.23% (245,904B) 0x400CDB: addList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->01.23% (245,904B) 0x400ED9: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->00.00% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 67 261,872,332,884       20,190,280       12,114,168     8,076,112            0
+60.00% (12,114,168B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->29.69% (5,994,072B) 0x400DE7: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->29.69% (5,994,072B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->29.69% (5,994,072B) 0x400D7D: containsList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->29.69% (5,994,072B) 0x400DFC: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   ->29.69% (5,994,072B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|     
+->00.62% (126,024B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 68 262,203,113,180       20,392,200       12,235,320     8,156,880            0
+60.00% (12,235,320B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->29.99% (6,115,224B) 0x400DE7: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->29.99% (6,115,224B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   
+->29.99% (6,115,224B) 0x400D7D: containsList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+| ->29.99% (6,115,224B) 0x400DFC: removeList (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|   ->29.99% (6,115,224B) 0x400F0E: main (in /nfs/stak/students/s/seifertd/cs261/assignments/assignment3/link)
+|     
+->00.02% (4,872B) in 1+ places, all below ms_print's threshold (01.00%)
+
